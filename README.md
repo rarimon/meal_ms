@@ -59,6 +59,21 @@ This project helps manage daily meals, expenses, and reports for mess/society me
 
 ---
 
+## 🌐 Live Demo
+Check the live demo here: [https://meal-ms.vercel.app](https://meal-ms.vercel.app)
+
+**Admin Credentials**  
+- Email: `admin@gmail.com`  
+- Password: `123`  
+- Role: `admin`
+
+**User Credentials**  
+- Email: `user@gmail.com`  
+- Password: `123`  
+- Role: `user`
+
+---
+
 ## ⚙️ Installation & Setup
 
 ### 🧠 Prerequisites
@@ -67,7 +82,10 @@ Make sure you have **Node.js** and **npm** installed.
 ### 🧩 Steps
 ```bash
 # Clone this repository
-https://github.com/rarimon/meal_ms.git
+git clone https://github.com/rarimon/meal_ms.git
+
+# Go to the frontend folder
+cd Meal_Management_System_Frontend
 
 # Install dependencies
 npm install
