@@ -67,7 +67,7 @@ Make sure you have **Node.js** and **npm** installed.
 ### 🧩 Steps
 ```bash
 # Clone this repository
-git clone https://github.com/yourusername/Meal_Management_System.git
+https://github.com/rarimon/meal_ms.git
 
 # Install dependencies
 npm install
