@@ -1,12 +1,76 @@
-# React + Vite
+# 🍽️ Meal Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A complete **Meal & Expense Management System** built with **React (Vite)**.  
+This project helps manage daily meals, expenses, and reports for mess/society meal management in an organized way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+### 🏠 Dashboard
+- Overview of total meals, total expenses, and balance summary  
+- Member-wise and date-wise analysis  
+- Graphical summary using **Recharts**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 👥 User Management
+- Add new members/users  
+- Edit and delete users  
+- View each member’s total meals, expenses, and balance
+
+### 🍛 Meal Management
+- Add meal entries (member, date, quantity)  
+- Edit or delete any meal  
+- View meal list and total count  
+- Category-wise and member-wise summary
+
+### 💰 Expense Management
+- Add new expenses with category, amount, and date  
+- Edit and delete expenses  
+- Date-wise and category-wise expense tracking  
+
+### 📊 Reports & Analytics
+- **Date-wise report:** Total meals & total expenses between selected dates  
+- **Member-wise report:** Individual meal and cost calculation  
+- **Category-wise report:** Expense tracking per category  
+- **Combined summary:** All meals, all expenses, and total calculation in one place  
+- **Chart Visualization:** Meal vs Expense comparison
+
+---
+
+## 🧩 Main Components
+| Component | Description |
+|------------|-------------|
+| `DashboardSummary.jsx` | Shows total meals, total expenses, and charts |
+| `UserSummary.jsx` | Add/Edit/Delete users and view user details |
+| `MealManager.jsx` | Manage meal CRUD operations |
+| `ExpenseManager.jsx` | Manage expense CRUD operations |
+| `Report.jsx` | Generate date-wise and member-wise reports |
+
+---
+
+## 💻 Tech Stack
+| Category | Tools Used |
+|-----------|-------------|
+| Frontend | React (Vite) |
+| Styling | TailwindCSS / Bootstrap |
+| Icons | React Icons |
+| State Management | Zustand |
+| Backend (optional) | Node.js, Express.js, MongoDB |
+
+---
+
+## ⚙️ Installation & Setup
+
+### 🧠 Prerequisites
+Make sure you have **Node.js** and **npm** installed.
+
+### 🧩 Steps
+```bash
+# Clone this repository
+git clone https://github.com/yourusername/Meal_Management_System.git
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
